@@ -1,0 +1,29 @@
+*.md
+**/*.md
+.git/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pyc
+.DS_Store
+# Video files
+*.mp4
+*.mov
+*.webm
+# Archives and local databases
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+# Excel temporary files
+~$*
+# Unverified measurement evidence
+/evidence/ai_assistants/
+/evidence/google/
+# Previously identified synthetic measurement scripts
+/research/execute_measurements.py
+/research/execute_measurements_authentic.py

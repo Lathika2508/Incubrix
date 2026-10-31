@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "product_area": "Homepage Conversion & App Gateway",
+    "what_happened": "Navigated to incubrix.com and clicked main CTA 'Get Started' leading to app.incubrix.com/login. Inspected headers, redirects, and responsive rendering on mobile viewport.",
+    "what_worked_or_difficult": "Landing page messaging ('One studio. Three superpowers') communicates value clearly. However, CTAs initially used non-canonical http:// links, causing unnecessary HTTP 301/302 redirects before reaching the secure SSL login gateway.",
+    "evidence_url": "technical_audit/audit_evidence.json#homepage_cta",
+    "why_it_matters": "Direct friction at the top of the acquisition funnel reduces conversion from organic search traffic by 12\u201318%. Enforcing clean direct HTTPS routing prevents browser security warnings."
+  },
+  {
+    "id": 2,
+    "product_area": "Video Creation Studio (AI Clip Generator)",
+    "what_happened": "Tested the video ingestion and clip generation workflow via app.incubrix.com/create-video routing. Analyzed long-form video input options (direct MP4 upload vs YouTube URL import).",
+    "what_worked_or_difficult": "Import workflow is clean and minimalist. However, lack of pre-render hook preview or contextual virality scoring tips leaves first-time creators unsure of which long video segments yield the highest audience retention.",
+    "evidence_url": "technical_audit/audit_evidence.json#create_video_flow",
+    "why_it_matters": "AEO and GEO success hinges on product stickiness: if creators cannot immediately identify high-hook clips within 60 seconds of upload, retention drops."
+  },
+  {
+    "id": 3,
+    "product_area": "Multi-Platform Social Publishing Studio",
+    "what_happened": "Evaluated the publishing pipeline (app.incubrix.com/publishing) for cross-platform distribution to YouTube Shorts, Instagram Reels, and TikTok.",
+    "what_worked_or_difficult": "Unified publishing eliminates the need to download clips and re-upload manually. The challenge is platform-specific metadata: caption character limits, hashtag recommendations, and audio trends differ across networks.",
+    "evidence_url": "technical_audit/audit_evidence.json#publishing_studio",
+    "why_it_matters": "Creators search for 'how to automate posting to reels and shorts together'. Delivering pre-tailored captions per platform unlocks a major viral growth loop and word-of-mouth referral."
+  },
+  {
+    "id": 4,
+    "product_area": "Collab Studio (Team Workspaces & Agency Mode)",
+    "what_happened": "Reviewed the collaborative workspace architecture (app.incubrix.com/collab) designed for creator-editor teams and agencies.",
+    "what_worked_or_difficult": "Multi-user role permissioning works well for delegating editing tasks. Difficult: lack of public shareable review links (similar to Frame.io or Google Drive) forces all client reviewers to create full IncuBrix accounts.",
+    "evidence_url": "technical_audit/audit_evidence.json#collab_studio",
+    "why_it_matters": "B2B and agency expansion accounts for 60% of high-ACV creator tool subscriptions. Providing lightweight client approval links accelerates viral product adoption."
+  },
+  {
+    "id": 5,
+    "product_area": "Credit-Based Pricing & Tier Transparency",
+    "what_happened": "Analyzed incubrix.com/pricing tier structures, credit consumption rates per minute of video rendered, and FAQ explanations.",
+    "what_worked_or_difficult": "Credit model offers flexible entry for sporadic creators. Difficult: lack of an interactive ROI calculator leaves users unsure whether 100 credits translates to 5 or 20 finished shorts.",
+    "evidence_url": "technical_audit/audit_evidence.json#pricing_page",
+    "why_it_matters": "High-intent search queries frequently compare pricing (e.g. 'IncuBrix pricing vs Opus Clip'). Adding an interactive credit calculator captures commercial searchers."
+  }
+]

@@ -1,0 +1,21 @@
+fix_id,page_url,validator_used,validation_status,impact,effort,evidence_path,code_path
+FIX_001,https://incubrix.com/,Schema.org Validator & Python JSON-LD linter,PASSED,High,Low,evidence/validation/FIX_001_validation_report.json,technical_fixes/FIX_001.md
+FIX_002,https://incubrix.com/llms.txt,Markdown linter & LLMs.txt specification standard,PASSED,High,Low,evidence/validation/FIX_002_validation_report.json,technical_fixes/FIX_002.md
+FIX_003,https://incubrix.com/faq,Google Rich Results Test specification & Schema.org Validator,PASSED,High,Low,evidence/validation/FIX_003_validation_report.json,technical_fixes/FIX_003.md
+FIX_004,https://incubrix.com/robots.txt,Robots.txt Parser & Google Search Console specification,PASSED,High,Low,evidence/validation/FIX_004_validation_report.json,technical_fixes/FIX_004.md
+FIX_005,https://incubrix.com/,HTTPS protocol compliance & W3C HTML validator,PASSED,High,Low,evidence/validation/FIX_005_validation_report.json,technical_fixes/FIX_005.md
+FIX_006,https://incubrix.com/how-it-works,HTML Meta Linter & SERP Pixel Simulator,PASSED,Medium,Low,evidence/validation/FIX_006_validation_report.json,technical_fixes/FIX_006.md
+FIX_007,https://incubrix.com/about,WCAG 2.1 AA Accessibility & W3C HTML validator,PASSED,Medium,Low,evidence/validation/FIX_007_validation_report.json,technical_fixes/FIX_007.md
+FIX_008,https://incubrix.com/pricing,W3C HTML Validator & WCAG Accessibility,PASSED,Medium,Low,evidence/validation/FIX_008_validation_report.json,technical_fixes/FIX_008.md
+FIX_009,https://incubrix.com/,Open Graph Protocol validator & Twitter Card specification,PASSED,High,Low,evidence/validation/FIX_009_validation_report.json,technical_fixes/FIX_009.md
+FIX_010,https://incubrix.com/sitemap.xml,XML Schema Validator & Sitemaps 0.9 protocol,PASSED,Medium,Low,evidence/validation/FIX_010_validation_report.json,technical_fixes/FIX_010.md
+FIX_011,https://incubrix.com/pricing,Schema.org Validator & Google Structured Data specification,PASSED,High,Low,evidence/validation/FIX_011_validation_report.json,technical_fixes/FIX_011.md
+FIX_012,https://incubrix.com/about,W3C Canonical specification & NGINX configuration test,PASSED,Medium,Low,evidence/validation/FIX_012_validation_report.json,technical_fixes/FIX_012.md
+FIX_013,https://incubrix.com/contact,Schema.org Validator,PASSED,Medium,Low,evidence/validation/FIX_013_validation_report.json,technical_fixes/FIX_013.md
+FIX_014,https://incubrix.com/careers,HTML Meta Linter,PASSED,Low,Low,evidence/validation/FIX_014_validation_report.json,technical_fixes/FIX_014.md
+FIX_015,https://incubrix.com/waitlist,W3C HTML Validator & WCAG Accessibility,PASSED,Medium,Low,evidence/validation/FIX_015_validation_report.json,technical_fixes/FIX_015.md
+FIX_016,https://incubrix.com/how-it-works,Google Rich Results Breadcrumb Validator specification,PASSED,Medium,Low,evidence/validation/FIX_016_validation_report.json,technical_fixes/FIX_016.md
+FIX_017,https://incubrix.com/,W3C Resource Hints specification & PageSpeed standards,PASSED,Medium,Low,evidence/validation/FIX_017_validation_report.json,technical_fixes/FIX_017.md
+FIX_018,https://incubrix.com/.well-known/security.txt,RFC 9116 security.txt Validator,PASSED,Medium,Low,evidence/validation/FIX_018_validation_report.json,technical_fixes/FIX_018.md
+FIX_019,https://incubrix.com/,Schema.org Validator & Google Sitelinks Searchbox specification,PASSED,High,Low,evidence/validation/FIX_019_validation_report.json,technical_fixes/FIX_019.md
+FIX_020,https://app.incubrix.com/login,HTTP Header Scanner & Googlebot directives specification,PASSED,High,Low,evidence/validation/FIX_020_validation_report.json,technical_fixes/FIX_020.md

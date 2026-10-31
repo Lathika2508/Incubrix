@@ -1,0 +1,10 @@
+{
+  "fix_id": "FIX_013",
+  "page_url": "https://incubrix.com/contact",
+  "validator": "Schema.org Validator",
+  "syntax_validation": "VALID (RFC 8259 JSON)",
+  "schema_validation": "CONFORMS (Schema.org ContactPage)",
+  "deployment_status": "Ready for client template update",
+  "status": "PASSED_SYNTAX_AND_SCHEMA_VALIDATION",
+  "validated_at": "2026-10-31"
+}
